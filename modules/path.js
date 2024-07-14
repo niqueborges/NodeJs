@@ -12,6 +12,11 @@ console.log(path.extname(__filename)); // .js
 // Objeto com informações do arquivo atual
 console.log(path.parse(__filename)); // { root: '/', dir: '/Users/username/Desktop/nodejs-examples', base: 'path.js', ext: '.js', name: 'path' }
 
+// Concatenar caminhos
+console.log(path.join(__dirname, 'test', 'hello.html')); // /Users/username/Desktop/nodejs-examples/test/hello.html
+
+
+
 
 
 
