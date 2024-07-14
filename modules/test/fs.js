@@ -8,5 +8,5 @@ fs.mkdir(path.join(__dirname, '/test'), {}, err => {
     return console.log('Err: ', err);
 }
   console.log('Pasta criada com sucesso!');
-});Node
+});
 
